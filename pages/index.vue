@@ -168,30 +168,12 @@
         <ul class="flex items-center">
           <!-- top bar center -->
           <li>
-            <h1 class="pl-10 lg:pl-0 text-gray-700">Svelte</h1>
+            <h1 class="pl-10 lg:pl-0 text-gray-700">Heavy Metal Workout</h1>
           </li>
         </ul>
 
         <ul class="flex items-center">
           <!-- to bar right  -->
-
-          <li class="pr-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-bell"
-            >
-              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-          </li>
 
           <li class="h-8 w-8">
             <img
@@ -234,7 +216,7 @@
           ></path>
         </svg>
 
-        <span class="hidden text-sm capitalize">Inbox</span>
+        <span class="text-sm capitalize">Summary</span>
       </a>
 
       <a
@@ -264,7 +246,7 @@
           ></path>
         </svg>
 
-        <span class="text-sm capitalize">github</span>
+        <span class="text-sm capitalize">exercise</span>
       </a>
 
       <a
@@ -288,7 +270,7 @@
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
         </svg>
 
-        <span class="hidden text-sm capitalize">bookmark</span>
+        <span class="text-sm capitalize">Tools</span>
       </a>
 
       <a
@@ -326,7 +308,7 @@
           ></path>
         </svg>
 
-        <span class="hidden text-sm capitalize">Settings</span>
+        <span class="text-sm capitalize">Settings</span>
       </a>
     </nav>
   </div>
