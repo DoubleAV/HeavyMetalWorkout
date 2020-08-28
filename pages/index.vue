@@ -8,7 +8,7 @@
   </div> -->
   <!-- component -->
 
-  <div class="h-screen w-screen flex bg-gray-200">
+  <div class="h-screen w-screen flex bg-gray-900">
     <!-- container -->
 
     <aside
@@ -30,6 +30,8 @@
 
       <ul>
         <!-- Items Section -->
+
+        <!-- HomePage/Summary -->
         <li class="hover:bg-gray-100">
           <a
             href="."
@@ -37,27 +39,26 @@
 					focus:text-orange-500"
           >
             <svg
-              class="h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-home"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
               stroke-width="2"
+              stroke="currentColor"
+              fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-              <path
-                d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0
-							2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0
-							0-1.79 1.11z"
-              ></path>
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <polyline points="5 12 3 12 12 3 21 12 19 12" />
+              <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+              <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
             </svg>
           </a>
         </li>
 
+        <!-- Exercise -->
         <li class="hover:bg-gray-100">
           <a
             href="."
@@ -65,24 +66,24 @@
 					focus:text-orange-500"
           >
             <svg
-              class="h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-activity"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
               stroke-width="2"
+              stroke="currentColor"
+              fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <path
-                d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
-              ></path>
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <polyline points="21 12 17 12 14 20 10 4 7 12 3 12" />
             </svg>
           </a>
         </li>
 
+        <!-- Tools -->
         <li class="hover:bg-gray-100">
           <a
             href="."
@@ -90,35 +91,24 @@
 					focus:text-orange-500"
           >
             <svg
-              class="h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-tools"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
               stroke-width="2"
+              stroke="currentColor"
+              fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <circle cx="12" cy="12" r="3"></circle>
-              <path
-                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1
-							0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0
-							0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2
-							2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0
-							0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1
-							0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0
-							0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65
-							0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0
-							1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0
-							1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2
-							0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0
-							1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0
-							2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0
-							0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65
-							1.65 0 0 0-1.51 1z"
-              ></path>
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+              <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+              <polyline points="12 8 7 3 3 7 8 12" />
+              <line x1="7" y1="8" x2="5.5" y2="9.5" />
+              <polyline points="16 12 21 17 17 21 12 16" />
+              <line x1="16" y1="17" x2="14.5" y2="18.5" />
             </svg>
           </a>
         </li>
@@ -151,7 +141,7 @@
     </aside>
 
     <div class="flex-1 flex flex-col">
-      <nav class="px-4 flex justify-between bg-white h-16 border-b-2">
+      <nav class="px-4 flex justify-between bg-gray-300 h-16 border-b-2">
         <!-- top bar -->
 
         <ul class="flex items-center lg:hidden">
@@ -187,73 +177,71 @@
     </div>
 
     <nav
-      class="fixed bottom-0 w-full border bg-white lg:hidden flex
+      class="fixed bottom-0 w-full border bg-gray-300 lg:hidden flex
 		overflow-x-auto"
     >
       <!-- Bottom Icon Navigation Menu -->
 
+      <!-- Home/Summary -->
       <a
         href="."
         class="flex flex-col flex-grow items-center justify-center
 			overflow-hidden whitespace-no-wrap text-sm transition-colors
-			duration-100 ease-in-out hover:bg-gray-200 focus:text-orange-500"
+			duration-100 ease-in-out hover:bg-gray-200 focus:text-red-600"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-home"
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
           stroke-width="2"
+          stroke="currentColor"
+          fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-          <path
-            d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0
-					2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
-          ></path>
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <polyline points="5 12 3 12 12 3 21 12 19 12" />
+          <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+          <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
         </svg>
 
         <span class="text-sm capitalize">Summary</span>
       </a>
 
+      <!-- Exercise -->
       <a
         href="."
         class="flex flex-col flex-grow items-center justify-center
 			overflow-hidden whitespace-no-wrap text-sm transition-colors
-			duration-100 ease-in-out hover:bg-gray-200 text-orange-500"
+			duration-100 ease-in-out hover:bg-gray-200 text-red-600"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-activity"
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
           stroke-width="2"
+          stroke="currentColor"
+          fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="feather feather-github"
         >
-          <path
-            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0
-					0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
-					5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7
-					0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0
-					0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-          ></path>
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <polyline points="21 12 17 12 14 20 10 4 7 12 3 12" />
         </svg>
 
         <span class="text-sm capitalize">exercise</span>
       </a>
 
+      <!-- Tools -->
       <a
         href="."
         class="flex flex-col flex-grow items-center justify-center
 			overflow-hidden whitespace-no-wrap text-sm transition-colors
-			duration-100 ease-in-out hover:bg-gray-200 focus:text-orange-500"
+			duration-100 ease-in-out hover:bg-gray-200 focus:text-red-600"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +261,8 @@
         <span class="text-sm capitalize">Tools</span>
       </a>
 
-      <a
+      <!-- Settings section will probably come later -->
+      <!-- <a
         href="."
         class="flex flex-col flex-grow items-center justify-center
 			overflow-hidden whitespace-no-wrap text-sm transition-colors
@@ -309,7 +298,7 @@
         </svg>
 
         <span class="text-sm capitalize">Settings</span>
-      </a>
+      </a> -->
     </nav>
   </div>
 </template>
