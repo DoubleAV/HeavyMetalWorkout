@@ -1,30 +1,18 @@
 <template>
-  <!-- <div class="container mx-auto">
-    <ul>
-      <li v-for="exercise in exercises" :key="exercise.name">
-        {{ exercise.name }}
-      </li>
-    </ul>
-  </div> -->
   <!-- component -->
 
   <div class="h-screen w-screen flex bg-gray-900">
     <!-- container -->
 
     <aside
-      class="hidden lg:flex flex-col items-center bg-green-300 text-gray-700 shadow
-		h-full"
+      class="hidden lg:flex flex-col items-center bg-gray-200 text-gray-700 shadow h-full"
     >
       <!-- Side Nav Bar-->
 
       <div class="h-16 flex items-center w-full">
         <!-- Logo Section -->
-        <a class="h-6 w-6 mx-auto" href="http://svelte.dev/">
-          <img
-            class="h-6 w-6 mx-auto"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/512px-Svelte_Logo.svg.png"
-            alt="svelte logo"
-          />
+        <a class="h-6 w-6 mx-auto" href="">
+          <img class="h-6 w-6 mx-auto" src="/FirstHMLogo.png" alt="logo" />
         </a>
       </div>
 
@@ -35,8 +23,7 @@
         <li class="hover:bg-gray-100">
           <a
             href="."
-            class="h-16 px-6 flex justify-center items-center w-full
-					focus:text-orange-500"
+            class="h-16 px-6 flex justify-center items-center w-full focus:text-red-600"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +128,7 @@
     </aside>
 
     <div class="flex-1 flex flex-col">
-      <nav class="px-4 flex justify-between bg-gray-300 h-16 border-b-2">
+      <nav class="px-4 flex justify-between bg-gray-200 h-16 border-b-2">
         <!-- top bar -->
 
         <ul class="flex items-center lg:hidden">
@@ -300,6 +287,13 @@
         <span class="text-sm capitalize">Settings</span>
       </a> -->
     </nav>
+    <!-- <div class="container mx-auto">
+      <ul>
+        <li v-for="exercise in exercises" :key="exercise.name">
+          {{ exercise.name }}
+        </li>
+      </ul>
+    </div> -->
   </div>
 </template>
 
